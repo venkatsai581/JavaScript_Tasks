@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Real-Time API Project</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Heading -->
+
+<h1>Fake Store Products</h1>
+
+
+
+<!-- Task 8 -->
+<!-- Cart Count -->
+
+<h2>
+  Cart Count :
+  <span id="count">0</span>
+</h2>
+
+
+
+<!-- Task 10 -->
+<!-- Total Price -->
+
+<h2>
+  Total :
+  $<span id="total">0</span>
+</h2>
+
+
+
+<!-- Task 6 -->
+<!-- Search Feature -->
+
+<input type="text" id="search" placeholder="Search Product">
+
+<br>
+
+
+
+<!-- Task 7 -->
+<!-- Category Filter Buttons -->
+
+<button onclick="filterCategory('electronics')">
+  Electronics
+</button>
+
+<button onclick="filterCategory('jewelery')">
+  Jewelery
+</button>
+
+<button onclick="filterCategory(`men's clothing`)">
+  Men's Clothing
+</button>
+
+<button onclick="filterCategory(`women's clothing`)">
+  Women's Clothing
+</button>
+
+
+
+<!-- Show All Products Button -->
+
+<button onclick="displayProducts(allProducts)">
+  All Products
+</button>
+
+
+
+<!-- Task 1 -->
+<!-- Products Container -->
+
+<div id="products"></div>
+
+
+
+<!-- JavaScript File -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
